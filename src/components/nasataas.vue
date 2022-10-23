@@ -70,6 +70,10 @@
            { title: 'Calculator', icon: 'mdi-abacus', path: '/calcu' },
            { title: 'String Manipulator', icon: 'mdi-ab-testing', path: '/string'},
            { title: 'Axios', icon: 'mdi-abacus', path: '/axios' },
+           { title: 'Midterm', icon: 'mdi-abacus', path: '/midterm' },
+           { title: 'Testing', icon: 'mdi-abacus', path: '/testing' },
+           { title: 'Test', icon: 'mdi-abacus', path: '/test' },
+           { title: 'shapes', icon: 'mdi-abacus', path: '/shapes' },
         ])
 
  function toggleDrawer(){

@@ -2,6 +2,11 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import StringManipulator from '../views/StringManipulator.vue'
 import Calculator from '../views/Calculator.vue'
 import Axios from '../views/Axios.vue'
+import Midterm from '../views/Midterm.vue'
+import Testing from '../views/Testing.vue'
+import Test from '../views/Test.vue'
+import shapes from '../views/shapes.vue'
+
 
 const routes = [
   {
@@ -18,6 +23,26 @@ const routes = [
     path: '/axios',
     name: 'axios',
     component: Axios
+  },
+  {
+    path: '/midterm',
+    name: 'midterm',
+    component: Midterm
+  },
+  {
+    path: '/testing',
+    name: 'testing',
+    component: Testing
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: Test
+  },
+  {
+    path: '/shapes',
+    name: 'shapes',
+    component: shapes
   },
   {
     path: '/about',
