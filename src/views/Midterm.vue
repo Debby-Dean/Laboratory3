@@ -34,6 +34,16 @@ const questions = ref([
 ])
 const quizCompleted = ref(false)
 const currentQuestion = ref(0)
+
+async function getQuestions () {
+     axios.get('https://opentdb.com/api.php?amount=10&category=20&difficulty=easy&type=multiple')
+     .then( response => {
+     questions.value=(response.data.results)
+     console.log(questions.value)
+    })
+}
+
+
 const score = computed(() => {
 	let value = 0
 	questions.value.map(q => {
