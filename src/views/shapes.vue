@@ -17,6 +17,7 @@
       <div v-if="Choice === 1">
         <br><br>
         <h1>Rectangle</h1>
+        <v-image src="https://pngimg.com/uploads/square/square_PNG22.png"></v-image>
           <v-text-field name="base" v-model.number="base" label="Enter the base of Rectangle"></v-text-field>
           <v-text-field name="height" v-model.number="height" label="Enter the height of Rectangle"></v-text-field>
     
