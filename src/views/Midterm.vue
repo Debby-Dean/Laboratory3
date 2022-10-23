@@ -75,7 +75,7 @@ const NextQuestion = () => {
 
 <template>
 	<main class="app">
-		<h1>The Quiz Brian</h1>
+		<h1>The Quiz Brian Jariel</h1>
 		
 		<section class="quiz" v-if="!quizCompleted">
 			<div class="quiz-info">
